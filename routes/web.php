@@ -1,10 +1,11 @@
 <?php
 
-use App\Models\Task;
+
+use App\Http\Controllers\TaskController;
 use Illuminate\Support\Facades\Route;
 
 
-Route::get('/', function () {
+Route::get('/', [TaskController::class, 'index']);
 
 //    $task1 = Task::create([
 //       'title' => 'Tasca 1',
@@ -27,19 +28,7 @@ Route::get('/', function () {
 //        $task3
 //    ];
 
-
-
-
-    return view('tasks', [
-        'tasks' => Task::all()
-    ]);
-});
-
-Route::get('/tasks', function () {
-    return view('tasks', [
-        'tasks' => []
-    ]);
-});
+Route::get('/tasks', [TaskController::class, 'index']);
 
 Route::get('/users', function () {
     return view('users');
