@@ -35,6 +35,30 @@
                             <a href="/contact" class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center border-b-2 px-1 pt-1 text-sm font-medium">Contact</a>
                             <a href="/about" class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center border-b-2 px-1 pt-1 text-sm font-medium">About</a>
                         </div>
+
+                        <script>
+                        // Este código JS seleccionará el enlace basado en la URL actual y le aplicará las clases necesarias.
+
+                        document.addEventListener("DOMContentLoaded", () => {
+                        // Obtén la ruta actual
+                        const path = window.location.pathname;
+
+                        // Encuentra todos los enlaces de la navegación
+                        const navLinks = document.querySelectorAll('.sm\\:flex .inline-flex.items-center');
+
+                        // Recorre cada enlace y actualiza las clases según corresponda
+                        navLinks.forEach(link => {
+                        if(link.getAttribute('href') === path) {
+                        // Aplica las clases para la página actual
+                        link.className = 'border-indigo-500 text-gray-900 inline-flex items-center border-b-2 px-1 pt-1 text-sm font-medium';
+                        } else {
+                        // Reestablece las clases para los no seleccionados
+                        link.className = 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center border-b-2 px-1 pt-1 text-sm font-medium';
+                        }
+                        });
+                        });
+                        </script>
+
                     </div>
                     <div class="hidden sm:ml-6 sm:flex sm:items-center">
                         <button type="button" class="relative rounded-full bg-white p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
@@ -224,6 +248,5 @@
         </div>
     </footer>
 
-TOT EL CONTINGUT
 </body>
 </html>

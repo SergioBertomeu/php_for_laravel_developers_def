@@ -10,9 +10,9 @@
         </header>
 
         <main>
-
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis deserunt dolore ea eligendi eos error eveniet fugiat fugit in inventore maxime minus nisi, pariatur perspiciatis qui quisquam reiciendis repellat, voluptas!
-
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis deserunt dolore ea eligendi eos error eveniet fugiat fugit in inventore maxime minus nisi, pariatur perspiciatis qui quisquam reiciendis repellat, voluptas!</p>
+            </div>
         </main>
     </div>
 

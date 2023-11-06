@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c13cf84d-1831-4716-be31-5fa36f8a6ce7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/layout.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +173,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/alumne/Code/SergioBertomeu/landing-page-personal-SergioBertomeu",
+    "last_opened_file_path": "/home/alumne/phpforlaraveldevelopersdef",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -222,6 +224,7 @@
       <workItem from="1699092026182" duration="12888000" />
       <workItem from="1699279652618" duration="599000" />
       <workItem from="1699292388355" duration="412000" />
+      <workItem from="1699295972944" duration="2428000" />
     </task>
     <servers />
   </component>
